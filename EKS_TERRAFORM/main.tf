@@ -30,7 +30,7 @@ resource "aws_iam_role_policy_attachment" "eks_cluster_policy" {
 # Use Custom VPC and Subnet Data
 # -------------------------------
 data "aws_vpc" "selected" {
-  id = "vpc-07767d1eb85112601"
+  id = "vpc-08a7ee39c90503c4e"
 }
 
 data "aws_subnets" "public" {
